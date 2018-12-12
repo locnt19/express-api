@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	#app
+		.container
+			.row
+				.col
+					h1 Mã SP:  #{data.MaSP}
+					h3 Sản phẩm:  #{data.TenSP}
+					p Giá:  #{data.DonGia}
+					p Nhà sản xuất:  #{data.NSX}
+					p Loại sản phẩm:  #{data.LoaiSP}
+					p Bảo hành (tháng):  #{data.BaoHanh}
+					p Số lượng tồn kho:  #{data.SoLuongTon}
+					p Hình ảnh:
+					img(src="../../"+data.HinhAnh, alt=data.HinhAnh, style="width: 300px")
+					p Trạng thái (1: tồn tại, 2: đã xóa):  #{data.STT}

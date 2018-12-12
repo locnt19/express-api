@@ -1,0 +1,34 @@
+extends layout
+
+block content
+	#app
+		.container
+			.row
+				.col
+					h1 Điện thoại
+					table.table.table-bordered
+						thead
+							tr 
+								th SP
+								th Tên SP
+								th NSX
+								th Loại SP
+								th Đơn giá
+								th Bảo hành
+								th SLT
+								th Hình ảnh
+								th Trạng thái
+						tbody
+							- for(var sp in data)
+								tr 
+									td
+										a(href="/details/"+data[sp].MaSP) #{data[sp].MaSP}
+									td=data[sp].TenSP
+									td=data[sp].NSX
+									td=data[sp].LoaiSP
+									td=data[sp].DonGia
+									td=data[sp].BaoHanh
+									td=data[sp].SoLuongTon
+									td
+										img(src=data[sp].HinhAnh, alt=data[sp].HinhAnh, style="width: 128px")
+									td=data[sp].STT

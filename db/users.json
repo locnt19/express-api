@@ -1,0 +1,47 @@
+{
+	"lists": [
+		{
+			"id": 1,
+			"name": "Nguyen Thanh Loc",
+			"per": "admin",
+			"code": "MDISIOS89",
+			"img": "img/47369517_682878175446961_4884770325553741824_n.jpg"
+		},{
+			"id": 2,
+			"name": "Nguyen Thanh Loc",
+			"per": "user",
+			"code": "78768678",
+			"img": "img/47369517_682878175446961_4884770325553741824_n.jpg"
+		},{
+			"id": 3,
+			"name": "Nguyen Thanh Loc",
+			"per": "user",
+			"code": "78768678",
+			"img": "img/47369517_682878175446961_4884770325553741824_n.jpg"
+		},{
+			"id": 4,
+			"name": "Nguyen Thanh Loc",
+			"per": "admin",
+			"code": "78768678",
+			"img": "img/47369517_682878175446961_4884770325553741824_n.jpg"
+		},{
+			"id": 5,
+			"name": "Nguyen Thanh Loc",
+			"per": "user",
+			"code": "78768678",
+			"img": "img/47369517_682878175446961_4884770325553741824_n.jpg"
+		},{
+			"id": 6,
+			"name": "SP 06",
+			"per": "user",
+			"code": "78768678",
+			"img": "img/47369517_682878175446961_4884770325553741824_n.jpg"
+		}
+	],
+	"code": "lstUser01",
+	"messasge": {
+		"err": 404,
+		"msg": "susscessful"
+	},
+	"status": true
+}
